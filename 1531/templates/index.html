@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+   <head>
+   <title>Index page </title>
+   </head>
+   <body>
+      <h1> Login page </h1>
+      <Form method="POST">
+         <input name="username" placeholder="username"/><br/>
+         <input type="password" name="password" placeholder="password"/><br/>
+         <button type="submit" name="bt">login</button>
+      </Form>
+	  {{output}}<br/>
+	  <a href="{{url_for('join')}}">Sign up</a><br/>
+   </body>
+</html>

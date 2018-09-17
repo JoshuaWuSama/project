@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+   <head>
+   <title>search result</title>
+   </head>
+   <body>
+      <div>
+         <h1>(Name					Ranking)</h1>
+      </div>
+      <div>
+      {% for row in list %}
+         <h1>(<a href="{{url_for('healthprofile')}}">{{name}}</a>				{{ranking}})</h1>
+      {% endfor %}
+      </div>
+   </body>
+</html>
